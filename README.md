@@ -44,4 +44,16 @@ git push origin (branch)
 - aqui a gente manda o pacote para o repositório remoto, no caso de versão final sempre deixar na branch main.
 
 ## Trabalhando com Branchs
- Em Breve....
+O Porque usar branchs..... ela ajuda a manter um fluxo de trabalho um termo usado para pesquisas futuras **Gitflow**, ajuda a manter o código versionado, um jeito de usar é colocar a branch main como principal com o código com sua versão final e atualizada, uma branch dev para o código que está sendo modificado e caso esteja trabalhando em equipe podemos também ter uma branch de cada desenvolvedor. Aqui é somente uma idéia lembrando sempre da herarquia, de sempre manter a branch atualizada.
+
+```
+git checkout -b (nome)
+```
+
+```
+git checkout (branch)
+```
+
+```
+git branch -d (branch)
+```
