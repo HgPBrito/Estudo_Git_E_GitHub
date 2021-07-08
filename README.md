@@ -62,16 +62,14 @@ git branch -d (branch)
 - não quer mais a branch então so deletar.
 
 ## Como atualizar e mesclar branchs
-
-
-```
-git diff (branch origem) (branch destino)
-```
+ As vezes, acho que a maioria das vezes trabalhamos em equipe e as vezes até na mesma branch, e ai como fica a questão do código quando é compartilhado? bom temos como atualizar para a versão da branch local com a versão do remoto e também temos como unir branchs mergiando elas. Lembrando que ele tenta fazer a junção automaticamente, mas se ouver comflito ele deixa ao seu cargo fazer essa junção de comflitos manualmente.
 
 ```
 git pull
 ```
+- Atualiza sua branch local com as informações que estão no repositório remoto.
 
 ```
 git merge (branch)
 ```
+- Ele faz a junção da branch mensionada a sua branch atual.
