@@ -4,7 +4,7 @@
 ## Começando com o Git
 Primeiramente baixando o git para sua máquina referente ao seu sistema usado [Git Downloads](https://git-scm.com/downloads).
 
-Depois de instalado aconselho ter no favoritos as referencias da documentação [Git Reference](https://git-scm.com/docs), mas não se preocupe como já diz é uma referência bom para consultas futuras, mas vamos abordar o básico que se pode ser usado em um dia dia de trabalho.
+Depois de instalado aconselho ter no favoritos as referências da documentação [Git Reference](https://git-scm.com/docs) e materiais como [Git Book](http://git-scm.com/book/pt-br/v2) usado para esse estudo, mas não se preocupe como já disse é uma referência, bom para consultas futuras, mas vamos abordar o básico que se pode ser usado em um dia dia de trabalho.
 
 ### Configurações iniciais
 ```
@@ -25,9 +25,18 @@ git clone /diretório/do/repositório
 ```
 - faz uma cópia do repositório localmente.
 
+```
+git status
+ou
+git status -s
+```
+- ele retorna o estado do seu repositório, se tem arquivo modificado, se esse arquivo ja foi adicionado ao "pacote" de envio ou não, se so falta fazer commit e muitas outras informações úteis para o seu projeto.
+
 ## Salvando algo no repositório
 ``` 
 git add *
+ou
+git add *.nn
 ou
 git add (arquivo.nn) 
 ```
