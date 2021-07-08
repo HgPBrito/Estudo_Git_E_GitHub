@@ -32,6 +32,9 @@ git status -s
 ```
 - ele retorna o estado do seu repositório, se tem arquivo modificado, se esse arquivo ja foi adicionado ao "pacote" de envio ou não, se so falta fazer commit e muitas outras informações úteis para o seu projeto.
 
+## Arquivo .gitignore
+Em Breve....
+
 ## Salvando algo no repositório
 ``` 
 git add *
