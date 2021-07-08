@@ -49,11 +49,29 @@ O Porque usar branchs..... ela ajuda a manter um fluxo de trabalho um termo usad
 ```
 git checkout -b (nome)
 ```
+- cria uma nova Branch com o nome especificado localmente, então não se esqueça de dar um 'git push origin (branch)' no final caso queira subir a nova branch para o repositório remoto.
 
 ```
 git checkout (branch)
 ```
+- troca de branch, precisa irde uma branch para outra é esse comando que vai usar.
 
 ```
 git branch -d (branch)
+```
+- não quer mais a branch então so deletar.
+
+## Como atualizar e mesclar branchs
+
+
+```
+git diff (branch origem) (branch destino)
+```
+
+```
+git pull
+```
+
+```
+git merge (branch)
 ```
