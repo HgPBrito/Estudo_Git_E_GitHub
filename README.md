@@ -35,22 +35,22 @@ git status -s
 ## Arquivo .gitignore
 Normalmente temos arquivos que queremos que o Git não coloque no repositótio, pra isso existe o .gitignore é um arquivo que colocamos o diretório epronto aquele arquivo não subirá mais.
 
-Exemplo tirado do [Git Book](http://git-scm.com/book/pt-br/v2).
+Exemplo tirado do [Git Book - alteração no repositório](http://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Altera%C3%A7%C3%B5es-em-Seu-Reposit%C3%B3rio).
 > As regras para os padrões que podem ser usados no arquivo .gitignore são as seguintes:
 
-Linhas em branco ou começando com # são ignoradas.
+> Linhas em branco ou começando com # são ignoradas.
 
-Os padrões que normalmente são usados para nomes de arquivos funcionam.
+> Os padrões que normalmente são usados para nomes de arquivos funcionam.
 
-Você pode iniciar padrões com uma barra (/) para evitar recursividade.
+> Você pode iniciar padrões com uma barra (/) para evitar recursividade.
 
-Você pode terminar padrões com uma barra (/) para especificar um diretório.
+> Você pode terminar padrões com uma barra (/) para especificar um diretório.
 
-Você pode negar um padrão ao fazê-lo iniciar com um ponto de exclamação (!).
+> Você pode negar um padrão ao fazê-lo iniciar com um ponto de exclamação (!).
 
-Padrões de nome de arquivo são como expressões regulares simplificadas usadas em ambiente shell. Um asterisco (*) casa com zero ou mais caracteres; [abc] casa com qualquer caracter dentro dos colchetes (neste caso, a, b ou c); um ponto de interrogação (?) casa com um único caracter qualquer; e caracteres entre colchetes separados por hífen ([0-9]) casam com qualquer caracter entre eles (neste caso, de 0 a 9). Você também pode usar dois asteriscos para criar uma expressão que case com diretórios aninhados; a/**/z casaria com a/z, a/b/z, a/b/c/z, e assim por diante.
+> Padrões de nome de arquivo são como expressões regulares simplificadas usadas em ambiente shell. Um asterisco (*) casa com zero ou mais caracteres; [abc] casa com qualquer caracter dentro dos colchetes (neste caso, a, b ou c); um ponto de interrogação (?) casa com um único caracter qualquer; e caracteres entre colchetes separados por hífen ([0-9]) casam com qualquer caracter entre eles (neste caso, de 0 a 9). Você também pode usar dois asteriscos para criar uma expressão que case com diretórios aninhados; a/**/z casaria com a/z, a/b/z, a/b/c/z, e assim por diante.
 
-Aqui está outro exemplo de arquivo .gitignore:
+> Aqui está outro exemplo de arquivo .gitignore:
 ``` 
 # ignorar arquivos com extensão .a
 *.a
