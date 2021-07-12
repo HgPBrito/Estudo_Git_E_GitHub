@@ -33,7 +33,43 @@ git status -s
 - ele retorna o estado do seu repositório, se tem arquivo modificado, se esse arquivo ja foi adicionado ao "pacote" de envio ou não, se so falta fazer commit e muitas outras informações úteis para o seu projeto.
 
 ## Arquivo .gitignore
-Em Breve....
+Normalmente temos arquivos que queremos que o Git não coloque no repositótio, pra isso existe o .gitignore é um arquivo que colocamos o diretório epronto aquele arquivo não subirá mais.
+
+Exemplo tirado do [Git Book](http://git-scm.com/book/pt-br/v2).
+> As regras para os padrões que podem ser usados no arquivo .gitignore são as seguintes:
+
+Linhas em branco ou começando com # são ignoradas.
+
+Os padrões que normalmente são usados para nomes de arquivos funcionam.
+
+Você pode iniciar padrões com uma barra (/) para evitar recursividade.
+
+Você pode terminar padrões com uma barra (/) para especificar um diretório.
+
+Você pode negar um padrão ao fazê-lo iniciar com um ponto de exclamação (!).
+
+Padrões de nome de arquivo são como expressões regulares simplificadas usadas em ambiente shell. Um asterisco (*) casa com zero ou mais caracteres; [abc] casa com qualquer caracter dentro dos colchetes (neste caso, a, b ou c); um ponto de interrogação (?) casa com um único caracter qualquer; e caracteres entre colchetes separados por hífen ([0-9]) casam com qualquer caracter entre eles (neste caso, de 0 a 9). Você também pode usar dois asteriscos para criar uma expressão que case com diretórios aninhados; a/**/z casaria com a/z, a/b/z, a/b/c/z, e assim por diante.
+
+Aqui está outro exemplo de arquivo .gitignore:
+``` 
+# ignorar arquivos com extensão .a
+*.a
+
+# mas rastrear o arquivo lib.a, mesmo que você esteja ignorando os arquivos .a acima
+!lib.a
+
+# ignorar o arquivo TODO apenas no diretório atual, mas não em subdir/TODO
+/TODO
+
+# ignorar todos os arquivos no diretório build/
+build/
+
+# ignorar doc/notes.txt, mas não doc/server/arch.txt
+doc/*.txt
+
+# ignorar todos os arquivos .pdf no diretório doc/
+doc/**/*.pdf
+``` 
 
 ## Salvando algo no repositório
 ``` 
@@ -57,6 +93,11 @@ git push origin (branch)
 
 ## Trabalhando com Branchs
 O Porque usar branchs..... ela ajuda a manter um fluxo de trabalho um termo usado para pesquisas futuras **Gitflow**, ajuda a manter o código versionado, um jeito de usar é colocar a branch main como principal com o código com sua versão final e atualizada, uma branch dev para o código que está sendo modificado e caso esteja trabalhando em equipe podemos também ter uma branch de cada desenvolvedor. Aqui é somente uma idéia lembrando sempre da herarquia, de sempre manter a branch atualizada.
+
+```
+git branch 
+```
+- lista as branchs existentes e em qual você está trabalhando.
 
 ```
 git checkout -b (nome)
