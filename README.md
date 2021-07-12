@@ -4,7 +4,7 @@
 ## Começando com o Git
 Primeiramente baixando o git para sua máquina referente ao seu sistema usado [Git Downloads](https://git-scm.com/downloads).
 
-Depois de instalado aconselho ter no favoritos as referências da documentação [Git Reference](https://git-scm.com/docs) e materiais como [Git Book](http://git-scm.com/book/pt-br/v2) usado para esse estudo, mas não se preocupe como já disse é uma referência, bom para consultas futuras, mas vamos abordar o básico que se pode ser usado em um dia dia de trabalho.
+Depois de instalado aconselho ter no favoritos as referências da documentação [Git Reference](https://git-scm.com/docs) e materiais como [Git Book](http://git-scm.com/book/pt-br/v2) e [Lista de comandos úteis do GIT - por leocomelli](https://gist.github.com/leocomelli/2545add34e4fec21ec16) usado para esse estudo e ótimo para consultas futuras, mas vamos abordar o básico que se pode ser usado em um dia dia de trabalho.
 
 ### Configurações iniciais
 ```
